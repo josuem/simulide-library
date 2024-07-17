@@ -1,0 +1,61 @@
+<circuit version="1.1.0-SR0" rev="1917" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Ground" CircId="Ground-1" mainComp="false" Show_id="false" Show_Val="false" Pos="-448,-592" rotation="0" hflip="1" vflip="1" label="Ground-1" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Memory" CircId="Memory-2" mainComp="false" Show_id="false" Show_Val="false" Pos="-352,-680" rotation="0" hflip="1" vflip="1" label="Memory-2" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Address_Bits="8 _bits" Data_Bits="8 _bits" Persistent="true" Asynch="true" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" pd_n="1 _Gates" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" Mem="255,1,7," />
+
+<item itemtype="Rail" CircId="Rail-3" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-448,-744" rotation="90" hflip="1" vflip="1" label="Rail-3" idLabPos="-5,-10" labelrot="-90" valLabPos="-15.3523,5.39049" valLabRot="-90" Voltage="5 V" />
+
+<item itemtype="SwitchDip" CircId="SwitchDip-4" mainComp="false" Show_id="false" Show_Val="false" Pos="-412,-688" rotation="0" hflip="1" vflip="1" label="SwitchDip-4" idLabPos="-16,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Size="8" Exclusive="false" CommonPin="true" State="2" />
+
+<item itemtype="LedBar" CircId="LedBar-5" mainComp="false" Show_id="false" Show_Val="false" Pos="-288,-688" rotation="0" hflip="1" vflip="1" label="LedBar-5" idLabPos="-16,-44" labelrot="0" valLabPos="-16,-56" valLabRot="0" Color="Yellow" Size="8 _Leds" Grounded="true" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Node" CircId="Node-6" mainComp="false" Pos="-448,-712" />
+
+<item itemtype="Node" CircId="Node-7" mainComp="false" Pos="-388,-640" />
+
+<item itemtype="Connector" uid="Connector-1" startpinid="SwitchDip-4-switch1-pinN" endpinid="Memory-2-in1" pointList="-396,-704,-376,-704" />
+
+<item itemtype="Connector" uid="Connector-2" startpinid="Memory-2-Pin_We" endpinid="Node-6-1" pointList="-376,-648,-448,-648,-448,-712" />
+
+<item itemtype="Connector" uid="Connector-3" startpinid="Memory-2-in6" endpinid="SwitchDip-4-switch6-pinN" pointList="-376,-664,-396,-664" />
+
+<item itemtype="Connector" uid="Connector-4" startpinid="Memory-2-out3" endpinid="LedBar-5-led3-pinP" pointList="-328,-688,-304,-688" />
+
+<item itemtype="Connector" uid="Connector-5" startpinid="Node-6-2" endpinid="SwitchDip-4-switch0-pinP" pointList="-448,-712,-420,-712" />
+
+<item itemtype="Connector" uid="Connector-6" startpinid="Rail-3-outnod" endpinid="Node-6-0" pointList="-448,-728,-448,-712" />
+
+<item itemtype="Connector" uid="Connector-7" startpinid="Node-7-2" endpinid="Ground-1-Gnd" pointList="-388,-640,-448,-640,-448,-608" />
+
+<item itemtype="Connector" uid="Connector-8" startpinid="Memory-2-out1" endpinid="LedBar-5-led1-pinP" pointList="-328,-704,-304,-704" />
+
+<item itemtype="Connector" uid="Connector-9" startpinid="Memory-2-in7" endpinid="SwitchDip-4-switch7-pinN" pointList="-376,-656,-396,-656" />
+
+<item itemtype="Connector" uid="Connector-10" startpinid="Memory-2-Pin_Cs" endpinid="Node-7-1" pointList="-328,-640,-320,-640,-320,-616,-388,-616,-388,-640" />
+
+<item itemtype="Connector" uid="Connector-11" startpinid="SwitchDip-4-switch3-pinN" endpinid="Memory-2-in3" pointList="-396,-688,-376,-688" />
+
+<item itemtype="Connector" uid="Connector-12" startpinid="Memory-2-Pin_outEnable" endpinid="Node-7-0" pointList="-376,-640,-388,-640" />
+
+<item itemtype="Connector" uid="Connector-13" startpinid="Memory-2-out6" endpinid="LedBar-5-led6-pinP" pointList="-328,-664,-304,-664" />
+
+<item itemtype="Connector" uid="Connector-14" startpinid="Memory-2-in4" endpinid="SwitchDip-4-switch4-pinN" pointList="-376,-680,-396,-680" />
+
+<item itemtype="Connector" uid="Connector-15" startpinid="Memory-2-out7" endpinid="LedBar-5-led7-pinP" pointList="-328,-656,-304,-656" />
+
+<item itemtype="Connector" uid="Connector-16" startpinid="Memory-2-out4" endpinid="LedBar-5-led4-pinP" pointList="-328,-680,-304,-680" />
+
+<item itemtype="Connector" uid="Connector-17" startpinid="Memory-2-in2" endpinid="SwitchDip-4-switch2-pinN" pointList="-376,-696,-396,-696" />
+
+<item itemtype="Connector" uid="Connector-18" startpinid="Memory-2-out0" endpinid="LedBar-5-led0-pinP" pointList="-328,-712,-304,-712" />
+
+<item itemtype="Connector" uid="Connector-19" startpinid="SwitchDip-4-switch5-pinN" endpinid="Memory-2-in5" pointList="-396,-672,-376,-672" />
+
+<item itemtype="Connector" uid="Connector-20" startpinid="Memory-2-in0" endpinid="SwitchDip-4-switch0-pinN" pointList="-376,-712,-396,-712" />
+
+<item itemtype="Connector" uid="Connector-21" startpinid="Memory-2-out2" endpinid="LedBar-5-led2-pinP" pointList="-328,-696,-304,-696" />
+
+<item itemtype="Connector" uid="Connector-22" startpinid="Memory-2-out5" endpinid="LedBar-5-led5-pinP" pointList="-328,-672,-304,-672" />
+
+</circuit>
