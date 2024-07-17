@@ -34,4 +34,4 @@ This library of examples is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For questions or suggestions, you can contact me at [your-email@domain.com](mailto:your-email@domain.com).
+For questions or suggestions, you can contact me at [josue.meneses@usach.cl](mailto:josue.meneses@usach.cl).
