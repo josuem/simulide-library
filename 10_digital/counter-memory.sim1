@@ -36,13 +36,13 @@
 
 <item itemtype="Tunnel" CircId="Tunnel-37" mainComp="false" Show_id="false" Show_Val="false" Pos="-676,-900" rotation="0" hflip="1" vflip="1" label="Tunnel-37" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Q1" IsBus="false" />
 
-<item itemtype="Rail" CircId="Rail-39" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-844,-920" rotation="90" hflip="1" vflip="1" label="Rail-39" idLabPos="-5,-10" labelrot="-90" valLabPos="-12,6" valLabRot="-90" Voltage="5 V" />
+<item itemtype="Rail" CircId="Rail-39" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-844,-920" rotation="90" hflip="1" vflip="1" label="Rail-39" idLabPos="-5,-10" labelrot="-90" valLabPos="-14.341,6" valLabRot="-90" Voltage="5 V" />
 
 <item itemtype="Memory" CircId="Memory-40" mainComp="false" Show_id="false" Show_Val="false" Pos="-540,-836" rotation="0" hflip="1" vflip="1" label="Memory-40" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Address_Bits="8 _bits" Data_Bits="8 _bits" Persistent="true" Asynch="true" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" pd_n="1 _Gates" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" Mem="1,1,7," />
 
 <item itemtype="LedBar" CircId="LedBar-47" mainComp="false" Show_id="false" Show_Val="false" Pos="-456,-844" rotation="0" hflip="1" vflip="1" label="LedBar-47" idLabPos="-16,-44" labelrot="0" valLabPos="-16,-56" valLabRot="0" Color="Yellow" Size="8 _Leds" Grounded="true" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
 
-<item itemtype="Rail" CircId="Rail-48" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-608,-824" rotation="90" hflip="1" vflip="1" label="Rail-48" idLabPos="-5,-10" labelrot="-90" valLabPos="-12,6" valLabRot="-90" Voltage="5 V" />
+<item itemtype="Rail" CircId="Rail-48" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-608,-824" rotation="90" hflip="1" vflip="1" label="Rail-48" idLabPos="-5,-10" labelrot="-90" valLabPos="-15.7456,6" valLabRot="-90" Voltage="5 V" />
 
 <item itemtype="Ground" CircId="Ground-49" mainComp="false" Show_id="false" Show_Val="false" Pos="-608,-748" rotation="0" hflip="1" vflip="1" label="Ground-49" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
 
@@ -50,7 +50,7 @@
 
 <item itemtype="Rectangle" CircId="Rectangle-76" mainComp="false" Show_id="false" Show_Val="false" Pos="-520,-812" rotation="0" hflip="1" vflip="1" label="Rectangle-76" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="199 _px" V_size="140 _px" Border="2 _px" Z_Value="-1" Color="#00007f" Opacity="0.2" />
 
-<item itemtype="TextComponent" CircId="TextComponent-77" mainComp="false" Show_id="false" Show_Val="false" Pos="-480,-764" rotation="0" hflip="1" vflip="1" label="TextComponent-77" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="1 _px" Border="0 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="8 _px" Fixed_Width="false" Text="Read memory" />
+<item itemtype="TextComponent" CircId="TextComponent-77" mainComp="false" Show_id="false" Show_Val="false" Pos="-480,-760" rotation="0" hflip="1" vflip="1" label="TextComponent-77" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="1 _px" Border="0 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="8 _px" Fixed_Width="false" Text="Read memory" />
 
 <item itemtype="Tunnel" CircId="Tunnel-82" mainComp="false" Show_id="false" Show_Val="false" Pos="-436,-904" rotation="0" hflip="-1" vflip="1" label="Tunnel-82" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Vcc" IsBus="false" />
 
